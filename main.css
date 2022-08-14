@@ -1,5 +1,13 @@
+* {
+    font-family:'Franklin Gothic Medium', Arial, sans-serif;
+    max-width: 600px;
+    min-width: 400px;
+}
+body {
+    padding-left: 10px;
+}
 h1 {
-    font-size: ;
+    font-size: 3 rem;
     font-family: ;
     padding: ;
     margin: ;
@@ -10,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: ;
+    font-size: 2 rem;
     font-family: ;
     padding: ;
     margin: ;
@@ -20,18 +28,21 @@ h2 {
 }
 
 p {
-    font-family: ;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: ;
-    padding: ;
-    margin: ;
+     margin-top: 3px;
     color: ;
     background-color: ;
+    
+}
+p em {
+    color: darkgrey;
 }
 
 .logo {
-    background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-size: 100%;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-color: lightblue;
+    height: 400px;
+    width: 100px;
 }
